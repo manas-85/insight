@@ -1,0 +1,28 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
+html {
+    min-height: 100vh;
+    box-sizing: border-box;
+    position: relative;
+    overflow-x: hidden !important;
+    scroll-behavior: smooth !important;
+}
+
+body {
+    background-color: $color_white;
+    font-size: 1.04vw;
+    line-height: 1.67vw;
+    @extend %roboto-regular;
+    font-weight: normal;
+    color: $color_gray;
+}

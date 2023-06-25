@@ -1,0 +1,59 @@
+// Fonts
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700&display=swap');
+
+%font-regular {
+    font-family: 'Manrope', sans-serif;
+    -webkit-font-smoothing: antialiased;
+    font-weight: 400;
+}
+
+%font-medium {
+    font-family: 'Manrope', sans-serif;
+    -webkit-font-smoothing: antialiased;
+    font-weight: 500;
+}
+
+%font-semibold {
+    font-family: 'Manrope', sans-serif;
+    -webkit-font-smoothing: antialiased;
+    font-weight: 600;
+}
+
+%font-bold {
+    font-family: 'Manrope', sans-serif;
+    -webkit-font-smoothing: antialiased;
+    font-weight: 700;
+}
+
+h1 {
+    @extend %font-bold;
+    @include vw-value(font-size, 56, 19.1);
+}
+
+h2 {
+    @extend %font-bold;
+    @include vw-value(font-size, 40, 19.1);
+    @include vw-value(line-height, 41, 19.1);
+}
+
+h3 {
+    @extend %font-bold;
+    @include vw-value(font-size, 32, 19.1);
+    @include vw-value(line-height, 41, 19.1);
+}
+
+h4 {
+    @extend %font-bold;
+    @include vw-value(font-size, 28, 19.1);
+}
+
+h5 {
+    @extend %font-bold;
+    @include vw-value(font-size, 20, 19.1);
+}
+
+p {
+    @extend %font-bold;
+    @include vw-value(font-size, 16, 19.1);
+    @include vw-value(line-height, 28, 19.1);
+}

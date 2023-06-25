@@ -1,0 +1,39 @@
+/* Insight */
+
+$grid-breakpoints: (
+  xs: 0,
+  sm: 767px,
+  md: 1024px,
+  lg: 1280px,
+  xl: 1680px,
+  xxl: 1900px
+) !default;
+
+$container-max-widths: (
+  sm: 540px,
+  md: 720px,
+  lg: 960px,
+  xl: 1140px,
+  xxl: 1280px
+) !default;
+
+$grid-columns: 24;
+$grid-gutter-width: 30px;
+
+@import "bootstrap/bootstrap";
+
+// Base
+@import "base/mixins";
+@import "base/variables";
+@import "base/fonts";
+@import "base/common";
+
+
+// Components
+@import "components/header";
+@import "components/footer";
+@import "components/buttons";
+
+
+// Pages
+@import "pages/home";

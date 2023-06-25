@@ -1,0 +1,96 @@
+@mixin setBgColorAndHoverDarken($baseColor){
+    background-color: $baseColor;
+    transition: background-color 0.3s ease-in-out;
+    &:hover {
+        background-color: darken($baseColor, 5%);
+    }
+}
+
+@mixin setBgColorAndHoverLighter($baseColor){
+    background-color: $baseColor;
+    transition: background-color 0.3s ease-in-out;
+    &:hover {
+        background-color: lighten($baseColor, 5%);
+    }
+}
+
+@mixin setBgColorAndOpacity($baseColor, $Opacity, $OpacityHover){
+    background-color: rgba($baseColor, $Opacity);
+    transition: all 0.3s ease-in-out;
+    &:hover {
+        background-color: rgba($baseColor, $OpacityHover);
+    }
+}
+
+@mixin respond-to($media) {
+    @if $media==mobileportrait {
+        @media only screen and (max-width: 480px) {
+            @content;
+        }
+    } @else if $media==mobile {
+        @media only screen and (max-width: 767px) {
+            @content;
+        }
+    } @else if $media==tablet {
+        @media only screen and (max-width: 991px) {
+            @content;
+        }
+    } @else if $media==desktopscreens {
+        @media only screen and (max-width: 1024px) {
+            @content;
+        }
+    } @else if $media==laptop1366 {
+        @media only screen and (max-width: 1366px) {
+            @content;
+        }
+    }
+    @else if $media==largescreenZoom {
+        @media only screen and (max-width: 1599px) and (-webkit-device-pixel-ratio: 1.25) {
+            @content;
+        }
+    } @else if $media==Basitscreens {
+        @media only screen and (max-width: 1450px) {
+            @content;
+        }
+    } @else if $media==TBscreens {
+        @media only screen and (max-width: 1550px) {
+            @content;
+        }
+    } @else if $media==lpscreens {
+        @media only screen and (max-width: 1599px) {
+            @content;
+        }
+    } @else if $media==Basitlargescreen {
+        @media only screen and (max-width: 1680px) {
+            @content;
+        }
+    } @else if $media==largescreen {
+        @media only screen and (min-width: 1700px) {
+            @content;
+        }
+    }    
+}
+
+@mixin vw-value($property, $value, $divion) {
+    @include respond-to(largescreen){
+        #{$property}: #{calc($value/$divion)}vw;
+    }
+    @include respond-to(Basitlargescreen){
+        #{$property}: #{$value}px;
+    }
+    @include respond-to(desktopscreens){
+        #{$property}: #{$value * 0.75}px;
+    }    
+}
+
+@mixin vh-value($property, $value, $divion) {
+    @include respond-to(largescreen){
+        #{$property}: #{calc($value/$divion)}vh;
+    }
+    @include respond-to(Basitlargescreen){
+        #{$property}: #{$value}px;
+    }
+    @include respond-to(desktopscreens){
+        #{$property}: #{$value * 0.75}px;
+    }
+}
