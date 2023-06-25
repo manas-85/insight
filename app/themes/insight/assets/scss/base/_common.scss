@@ -31,3 +31,22 @@ body {
 .light-gray-bg{
     background-color: $light_gray;
 }
+
+.ocean-blue-txt{
+    color: $ocean_blue;
+}
+
+.ocean-blue-bg{
+    background-color: $ocean_blue;
+}
+
+.section-space{
+    @include  vw-value(padding-top, 10, 13.66);
+    @include  vw-value(padding-right, 0, 13.66);
+    @include  vw-value(padding-bottom, 90, 13.66);
+    @include  vw-value(padding-left, 0, 13.66);
+}
+
+img{
+    max-width: 100%;
+}

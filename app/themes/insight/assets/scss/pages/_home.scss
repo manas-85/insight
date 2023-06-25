@@ -22,5 +22,67 @@
         p{
             @include  vw-value(font-size, 18, 13.66);
         }
+        .btn{
+            @include  vw-value(width, 150, 13.66);
+        }
    }
+}
+
+.col-two-wrap{
+    .txt-wrap{
+        h2{
+            @include vw-value(line-height, 50, 19.1);
+            @include vw-value(margin-bottom, 20, 19.1);
+        }
+        ul{
+            @include vw-value(padding-left, 16, 19.1);
+            li{
+                @include vw-value(margin-bottom, 10, 19.1);
+            }
+        }
+    }
+    .img-wrap{
+        height: 100%;
+        img{
+            border-radius: 20px;
+            height: 100%;
+            object-fit: cover;
+            object-position: center;
+
+        }
+    }
+}
+
+.col-four-wrap{
+    .card{
+        background-color: $light_gray;
+        border-radius: 20px;
+        border: none;
+        @include  vw-value(padding, 20, 13.66);
+        .img-wrap{
+            @include  vw-value(padding-bottom, 20, 13.66);
+            img{
+                border-radius: 20px;
+            }
+        }
+        .card-body{
+            @include  vw-value(padding, 0, 13.66);
+            display: flex;
+            flex-direction: column;
+            h5{
+                @include  vw-value(font-size, 18, 13.66);
+                @include  vw-value(margin-bottom, 16, 13.66);
+            }
+            p{
+                color: rgba($charcoal, 60%);
+            }
+        }
+    }
+}
+
+.our-work-section{
+    @include  vw-value(padding-top, 90, 13.66);
+    h2, h5, p{
+        color: $color_white;
+    }
 }

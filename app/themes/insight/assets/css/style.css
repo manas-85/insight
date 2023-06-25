@@ -12616,6 +12616,79 @@ body {
   background-color: #F6F6F6;
 }
 
+.ocean-blue-txt {
+  color: #007CC3;
+}
+
+.ocean-blue-bg {
+  background-color: #007CC3;
+}
+
+@media only screen and (min-width: 1700px) {
+  .section-space {
+    padding-top: calc($value/$divion)vw;
+  }
+}
+@media only screen and (max-width: 1680px) {
+  .section-space {
+    padding-top: 10px;
+  }
+}
+@media only screen and (max-width: 1024px) {
+  .section-space {
+    padding-top: 7.5px;
+  }
+}
+@media only screen and (min-width: 1700px) {
+  .section-space {
+    padding-right: calc($value/$divion)vw;
+  }
+}
+@media only screen and (max-width: 1680px) {
+  .section-space {
+    padding-right: 0px;
+  }
+}
+@media only screen and (max-width: 1024px) {
+  .section-space {
+    padding-right: 0px;
+  }
+}
+@media only screen and (min-width: 1700px) {
+  .section-space {
+    padding-bottom: calc($value/$divion)vw;
+  }
+}
+@media only screen and (max-width: 1680px) {
+  .section-space {
+    padding-bottom: 90px;
+  }
+}
+@media only screen and (max-width: 1024px) {
+  .section-space {
+    padding-bottom: 67.5px;
+  }
+}
+@media only screen and (min-width: 1700px) {
+  .section-space {
+    padding-left: calc($value/$divion)vw;
+  }
+}
+@media only screen and (max-width: 1680px) {
+  .section-space {
+    padding-left: 0px;
+  }
+}
+@media only screen and (max-width: 1024px) {
+  .section-space {
+    padding-left: 0px;
+  }
+}
+
+img {
+  max-width: 100%;
+}
+
 @media only screen and (min-width: 1700px) {
   .top-head {
     padding: calc($value/$divion)vw;
@@ -12929,21 +13002,6 @@ header .topmenu ul.main-manu li a {
 }
 @media only screen and (min-width: 1700px) {
   .btn.btn-md {
-    width: calc($value/$divion)vw;
-  }
-}
-@media only screen and (max-width: 1680px) {
-  .btn.btn-md {
-    width: 150px;
-  }
-}
-@media only screen and (max-width: 1024px) {
-  .btn.btn-md {
-    width: 112.5px;
-  }
-}
-@media only screen and (min-width: 1700px) {
-  .btn.btn-md {
     padding-top: calc($value/$divion)vw;
   }
 }
@@ -13141,6 +13199,201 @@ header .topmenu ul.main-manu li a {
   .main-banner .banner-txt p {
     font-size: 13.5px;
   }
+}
+@media only screen and (min-width: 1700px) {
+  .main-banner .banner-txt .btn {
+    width: calc($value/$divion)vw;
+  }
+}
+@media only screen and (max-width: 1680px) {
+  .main-banner .banner-txt .btn {
+    width: 150px;
+  }
+}
+@media only screen and (max-width: 1024px) {
+  .main-banner .banner-txt .btn {
+    width: 112.5px;
+  }
+}
+
+@media only screen and (min-width: 1700px) {
+  .col-two-wrap .txt-wrap h2, .col-two-wrap .txt-wrap .h2 {
+    line-height: calc($value/$divion)vw;
+  }
+}
+@media only screen and (max-width: 1680px) {
+  .col-two-wrap .txt-wrap h2, .col-two-wrap .txt-wrap .h2 {
+    line-height: 50px;
+  }
+}
+@media only screen and (max-width: 1024px) {
+  .col-two-wrap .txt-wrap h2, .col-two-wrap .txt-wrap .h2 {
+    line-height: 37.5px;
+  }
+}
+@media only screen and (min-width: 1700px) {
+  .col-two-wrap .txt-wrap h2, .col-two-wrap .txt-wrap .h2 {
+    margin-bottom: calc($value/$divion)vw;
+  }
+}
+@media only screen and (max-width: 1680px) {
+  .col-two-wrap .txt-wrap h2, .col-two-wrap .txt-wrap .h2 {
+    margin-bottom: 20px;
+  }
+}
+@media only screen and (max-width: 1024px) {
+  .col-two-wrap .txt-wrap h2, .col-two-wrap .txt-wrap .h2 {
+    margin-bottom: 15px;
+  }
+}
+@media only screen and (min-width: 1700px) {
+  .col-two-wrap .txt-wrap ul {
+    padding-left: calc($value/$divion)vw;
+  }
+}
+@media only screen and (max-width: 1680px) {
+  .col-two-wrap .txt-wrap ul {
+    padding-left: 16px;
+  }
+}
+@media only screen and (max-width: 1024px) {
+  .col-two-wrap .txt-wrap ul {
+    padding-left: 12px;
+  }
+}
+@media only screen and (min-width: 1700px) {
+  .col-two-wrap .txt-wrap ul li {
+    margin-bottom: calc($value/$divion)vw;
+  }
+}
+@media only screen and (max-width: 1680px) {
+  .col-two-wrap .txt-wrap ul li {
+    margin-bottom: 10px;
+  }
+}
+@media only screen and (max-width: 1024px) {
+  .col-two-wrap .txt-wrap ul li {
+    margin-bottom: 7.5px;
+  }
+}
+.col-two-wrap .img-wrap {
+  height: 100%;
+}
+.col-two-wrap .img-wrap img {
+  border-radius: 20px;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+
+.col-four-wrap .card {
+  background-color: #F6F6F6;
+  border-radius: 20px;
+  border: none;
+}
+@media only screen and (min-width: 1700px) {
+  .col-four-wrap .card {
+    padding: calc($value/$divion)vw;
+  }
+}
+@media only screen and (max-width: 1680px) {
+  .col-four-wrap .card {
+    padding: 20px;
+  }
+}
+@media only screen and (max-width: 1024px) {
+  .col-four-wrap .card {
+    padding: 15px;
+  }
+}
+@media only screen and (min-width: 1700px) {
+  .col-four-wrap .card .img-wrap {
+    padding-bottom: calc($value/$divion)vw;
+  }
+}
+@media only screen and (max-width: 1680px) {
+  .col-four-wrap .card .img-wrap {
+    padding-bottom: 20px;
+  }
+}
+@media only screen and (max-width: 1024px) {
+  .col-four-wrap .card .img-wrap {
+    padding-bottom: 15px;
+  }
+}
+.col-four-wrap .card .img-wrap img {
+  border-radius: 20px;
+}
+.col-four-wrap .card .card-body {
+  display: flex;
+  flex-direction: column;
+}
+@media only screen and (min-width: 1700px) {
+  .col-four-wrap .card .card-body {
+    padding: calc($value/$divion)vw;
+  }
+}
+@media only screen and (max-width: 1680px) {
+  .col-four-wrap .card .card-body {
+    padding: 0px;
+  }
+}
+@media only screen and (max-width: 1024px) {
+  .col-four-wrap .card .card-body {
+    padding: 0px;
+  }
+}
+@media only screen and (min-width: 1700px) {
+  .col-four-wrap .card .card-body h5, .col-four-wrap .card .card-body .h5 {
+    font-size: calc($value/$divion)vw;
+  }
+}
+@media only screen and (max-width: 1680px) {
+  .col-four-wrap .card .card-body h5, .col-four-wrap .card .card-body .h5 {
+    font-size: 18px;
+  }
+}
+@media only screen and (max-width: 1024px) {
+  .col-four-wrap .card .card-body h5, .col-four-wrap .card .card-body .h5 {
+    font-size: 13.5px;
+  }
+}
+@media only screen and (min-width: 1700px) {
+  .col-four-wrap .card .card-body h5, .col-four-wrap .card .card-body .h5 {
+    margin-bottom: calc($value/$divion)vw;
+  }
+}
+@media only screen and (max-width: 1680px) {
+  .col-four-wrap .card .card-body h5, .col-four-wrap .card .card-body .h5 {
+    margin-bottom: 16px;
+  }
+}
+@media only screen and (max-width: 1024px) {
+  .col-four-wrap .card .card-body h5, .col-four-wrap .card .card-body .h5 {
+    margin-bottom: 12px;
+  }
+}
+.col-four-wrap .card .card-body p {
+  color: rgba(51, 51, 51, 0.6);
+}
+
+@media only screen and (min-width: 1700px) {
+  .our-work-section {
+    padding-top: calc($value/$divion)vw;
+  }
+}
+@media only screen and (max-width: 1680px) {
+  .our-work-section {
+    padding-top: 90px;
+  }
+}
+@media only screen and (max-width: 1024px) {
+  .our-work-section {
+    padding-top: 67.5px;
+  }
+}
+.our-work-section h2, .our-work-section .h2, .our-work-section h5, .our-work-section .h5, .our-work-section p {
+  color: #FFFFFF;
 }
 
 /*# sourceMappingURL=style.css.map */
