@@ -1,0 +1,14 @@
+.btn{
+    background: $ocean_blue;
+    color: $color_white;
+    border-radius: 6px;
+    text-decoration: none;
+    
+    @include  vw-value(font-size, 16, 13.66);
+    .btn-md{
+        @include  vw-value(padding-top, 8, 13.66);
+        @include  vw-value(padding-right, 18, 13.66);
+        @include  vw-value(padding-bottom, 8, 13.66);
+        @include  vw-value(padding-left, 18, 13.66);
+    }
+}

@@ -1,0 +1,70 @@
+.top-head{
+    @include  vw-value(padding, 10, 13.66);
+    .contact-side{
+        display: flex;
+        align-items: center;
+        
+        a{
+            @include  vw-value(margin-top, 0, 13.66);
+            @include  vw-value(margin-right, 10, 13.66);
+            @include  vw-value(margin-bottom, 0, 13.66);
+            @include  vw-value(margin-left, 10, 13.66);
+            @include  vw-value(font-size, 14, 13.66);
+        }
+        
+    }
+
+    .social-link-side{
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+        .icon{
+            i{
+                @include  vw-value(margin-top, 0, 13.66);
+                @include  vw-value(margin-right, 10, 13.66);
+                @include  vw-value(margin-bottom, 0, 13.66);
+                @include  vw-value(margin-left, 10, 13.66);
+            }
+        }
+    }
+    .icon, a{
+        color: $charcoal;
+    }
+    .icon{
+        i{
+            @include  vw-value(font-size, 14, 13.66);
+        }
+    }
+}
+header{
+    @include  vw-value(padding, 10, 13.66);
+    .topmenu{
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+        ul{
+            &.main-manu{
+                display: flex;
+                @include  vw-value(margin, 0, 13.66);
+                li{
+                    list-style: none;
+                    a{
+                        text-decoration: none;
+                        color: $charcoal;
+                        @include  vw-value(font-size, 16, 13.66);
+                        @include  vw-value(padding, 20, 13.66);
+                        font-weight: bold;
+                        display: block;
+                    }
+                }
+            }
+        }
+        .search-fliter-wrap{
+            @include  vw-value(padding, 10, 13.66);
+        }
+       .button-wrap{
+            @include  vw-value(margin-left, 40, 13.66);
+       }
+
+    }
+}
