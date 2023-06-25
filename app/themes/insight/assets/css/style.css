@@ -12635,6 +12635,9 @@ body {
   display: flex;
   align-items: center;
 }
+.top-head .contact-side a {
+  text-decoration: none;
+}
 @media only screen and (min-width: 1700px) {
   .top-head .contact-side a {
     margin-top: calc($value/$divion)vw;
@@ -12907,6 +12910,7 @@ header .topmenu ul.main-manu li a {
   color: #FFFFFF;
   border-radius: 6px;
   text-decoration: none;
+  border: 1px solid #007CC3;
 }
 @media only screen and (min-width: 1700px) {
   .btn {
@@ -12924,63 +12928,218 @@ header .topmenu ul.main-manu li a {
   }
 }
 @media only screen and (min-width: 1700px) {
-  .btn .btn-md {
+  .btn.btn-md {
+    width: calc($value/$divion)vw;
+  }
+}
+@media only screen and (max-width: 1680px) {
+  .btn.btn-md {
+    width: 150px;
+  }
+}
+@media only screen and (max-width: 1024px) {
+  .btn.btn-md {
+    width: 112.5px;
+  }
+}
+@media only screen and (min-width: 1700px) {
+  .btn.btn-md {
     padding-top: calc($value/$divion)vw;
   }
 }
 @media only screen and (max-width: 1680px) {
-  .btn .btn-md {
+  .btn.btn-md {
     padding-top: 8px;
   }
 }
 @media only screen and (max-width: 1024px) {
-  .btn .btn-md {
+  .btn.btn-md {
     padding-top: 6px;
   }
 }
 @media only screen and (min-width: 1700px) {
-  .btn .btn-md {
+  .btn.btn-md {
     padding-right: calc($value/$divion)vw;
   }
 }
 @media only screen and (max-width: 1680px) {
-  .btn .btn-md {
+  .btn.btn-md {
     padding-right: 18px;
   }
 }
 @media only screen and (max-width: 1024px) {
-  .btn .btn-md {
+  .btn.btn-md {
     padding-right: 13.5px;
   }
 }
 @media only screen and (min-width: 1700px) {
-  .btn .btn-md {
+  .btn.btn-md {
     padding-bottom: calc($value/$divion)vw;
   }
 }
 @media only screen and (max-width: 1680px) {
-  .btn .btn-md {
+  .btn.btn-md {
     padding-bottom: 8px;
   }
 }
 @media only screen and (max-width: 1024px) {
-  .btn .btn-md {
+  .btn.btn-md {
     padding-bottom: 6px;
   }
 }
 @media only screen and (min-width: 1700px) {
-  .btn .btn-md {
+  .btn.btn-md {
     padding-left: calc($value/$divion)vw;
   }
 }
 @media only screen and (max-width: 1680px) {
-  .btn .btn-md {
+  .btn.btn-md {
     padding-left: 18px;
   }
 }
 @media only screen and (max-width: 1024px) {
-  .btn .btn-md {
+  .btn.btn-md {
     padding-left: 13.5px;
+  }
+}
+.btn:hover {
+  color: #007CC3;
+  border: 1px solid #007CC3;
+}
+
+.main-banner {
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+  border-radius: 60px;
+}
+@media only screen and (min-width: 1700px) {
+  .main-banner {
+    height: calc($value/$divion)vw;
+  }
+}
+@media only screen and (max-width: 1680px) {
+  .main-banner {
+    height: 580px;
+  }
+}
+@media only screen and (max-width: 1024px) {
+  .main-banner {
+    height: 435px;
+  }
+}
+.main-banner .banner-txt {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100%;
+}
+@media only screen and (min-width: 1700px) {
+  .main-banner .banner-txt {
+    padding-top: calc($value/$divion)vw;
+  }
+}
+@media only screen and (max-width: 1680px) {
+  .main-banner .banner-txt {
+    padding-top: 0px;
+  }
+}
+@media only screen and (max-width: 1024px) {
+  .main-banner .banner-txt {
+    padding-top: 0px;
+  }
+}
+@media only screen and (min-width: 1700px) {
+  .main-banner .banner-txt {
+    padding-right: calc($value/$divion)vw;
+  }
+}
+@media only screen and (max-width: 1680px) {
+  .main-banner .banner-txt {
+    padding-right: 84px;
+  }
+}
+@media only screen and (max-width: 1024px) {
+  .main-banner .banner-txt {
+    padding-right: 63px;
+  }
+}
+@media only screen and (min-width: 1700px) {
+  .main-banner .banner-txt {
+    padding-bottom: calc($value/$divion)vw;
+  }
+}
+@media only screen and (max-width: 1680px) {
+  .main-banner .banner-txt {
+    padding-bottom: 0px;
+  }
+}
+@media only screen and (max-width: 1024px) {
+  .main-banner .banner-txt {
+    padding-bottom: 0px;
+  }
+}
+@media only screen and (min-width: 1700px) {
+  .main-banner .banner-txt {
+    padding-left: calc($value/$divion)vw;
+  }
+}
+@media only screen and (max-width: 1680px) {
+  .main-banner .banner-txt {
+    padding-left: 84px;
+  }
+}
+@media only screen and (max-width: 1024px) {
+  .main-banner .banner-txt {
+    padding-left: 63px;
+  }
+}
+@media only screen and (min-width: 1700px) {
+  .main-banner .banner-txt {
+    max-width: calc($value/$divion)vw;
+  }
+}
+@media only screen and (max-width: 1680px) {
+  .main-banner .banner-txt {
+    max-width: 785px;
+  }
+}
+@media only screen and (max-width: 1024px) {
+  .main-banner .banner-txt {
+    max-width: 588.75px;
+  }
+}
+.main-banner .banner-txt h1, .main-banner .banner-txt .h1, .main-banner .banner-txt p {
+  color: #FFFFFF;
+}
+@media only screen and (min-width: 1700px) {
+  .main-banner .banner-txt h1, .main-banner .banner-txt .h1, .main-banner .banner-txt p {
+    margin-bottom: calc($value/$divion)vw;
+  }
+}
+@media only screen and (max-width: 1680px) {
+  .main-banner .banner-txt h1, .main-banner .banner-txt .h1, .main-banner .banner-txt p {
+    margin-bottom: 25px;
+  }
+}
+@media only screen and (max-width: 1024px) {
+  .main-banner .banner-txt h1, .main-banner .banner-txt .h1, .main-banner .banner-txt p {
+    margin-bottom: 18.75px;
+  }
+}
+@media only screen and (min-width: 1700px) {
+  .main-banner .banner-txt p {
+    font-size: calc($value/$divion)vw;
+  }
+}
+@media only screen and (max-width: 1680px) {
+  .main-banner .banner-txt p {
+    font-size: 18px;
+  }
+}
+@media only screen and (max-width: 1024px) {
+  .main-banner .banner-txt p {
+    font-size: 13.5px;
   }
 }
 

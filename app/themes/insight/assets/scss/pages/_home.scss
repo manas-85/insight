@@ -1,1 +1,26 @@
 //background: url('#{$basePath}/banner-img.jpg') no-repeat 0 0 / cover;
+.main-banner{
+    background-size: cover;
+    background-repeat: no-repeat;
+    @include  vw-value(height, 580, 13.66);
+    position: relative;
+    border-radius: 60px;
+   .banner-txt{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        @include  vw-value(padding-top, 0, 13.66);
+        @include  vw-value(padding-right, 84, 13.66);
+        @include  vw-value(padding-bottom, 0, 13.66);
+        @include  vw-value(padding-left, 84, 13.66);
+        @include  vw-value(max-width, 785, 13.66);
+        height: 100%;
+        h1, p{
+            color: $color_white;
+            @include  vw-value(margin-bottom, 25, 13.66);
+        }
+        p{
+            @include  vw-value(font-size, 18, 13.66);
+        }
+   }
+}

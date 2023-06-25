@@ -10,6 +10,7 @@
             @include  vw-value(margin-bottom, 0, 13.66);
             @include  vw-value(margin-left, 10, 13.66);
             @include  vw-value(font-size, 14, 13.66);
+            text-decoration: none;
         }
         
     }
