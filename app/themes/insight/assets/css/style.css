@@ -12690,6 +12690,27 @@ img {
 }
 
 @media only screen and (min-width: 1700px) {
+  .top-padding {
+    padding-top: calc($value/$divion)vw;
+  }
+}
+@media only screen and (max-width: 1680px) {
+  .top-padding {
+    padding-top: 90px;
+  }
+}
+@media only screen and (max-width: 1024px) {
+  .top-padding {
+    padding-top: 67.5px;
+  }
+}
+
+.link-txt {
+  text-decoration: none;
+  font-weight: bold;
+}
+
+@media only screen and (min-width: 1700px) {
   .top-head {
     padding: calc($value/$divion)vw;
   }
@@ -13216,6 +13237,12 @@ header .topmenu ul.main-manu li a {
   }
 }
 
+.col-two-wrap .txt-wrap {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
 @media only screen and (min-width: 1700px) {
   .col-two-wrap .txt-wrap h2, .col-two-wrap .txt-wrap .h2 {
     line-height: calc($value/$divion)vw;
@@ -13282,6 +13309,7 @@ header .topmenu ul.main-manu li a {
 .col-two-wrap .img-wrap img {
   border-radius: 20px;
   height: 100%;
+  width: 100%;
   object-fit: cover;
   object-position: center;
 }
@@ -13377,23 +13405,33 @@ header .topmenu ul.main-manu li a {
   color: rgba(51, 51, 51, 0.6);
 }
 
+.our-work-section h2, .our-work-section .h2, .our-work-section h5, .our-work-section .h5, .our-work-section p {
+  color: #FFFFFF;
+}
+
+.best-practices-sec .txt-wrap {
+  background-color: #F6F6F6;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+}
 @media only screen and (min-width: 1700px) {
-  .our-work-section {
-    padding-top: calc($value/$divion)vw;
+  .best-practices-sec .txt-wrap {
+    padding: calc($value/$divion)vw;
   }
 }
 @media only screen and (max-width: 1680px) {
-  .our-work-section {
-    padding-top: 90px;
+  .best-practices-sec .txt-wrap {
+    padding: 40px;
   }
 }
 @media only screen and (max-width: 1024px) {
-  .our-work-section {
-    padding-top: 67.5px;
+  .best-practices-sec .txt-wrap {
+    padding: 30px;
   }
 }
-.our-work-section h2, .our-work-section .h2, .our-work-section h5, .our-work-section .h5, .our-work-section p {
-  color: #FFFFFF;
+.best-practices-sec .img-wrap img {
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
 }
 
 /*# sourceMappingURL=style.css.map */

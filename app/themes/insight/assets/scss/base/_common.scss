@@ -50,3 +50,12 @@ body {
 img{
     max-width: 100%;
 }
+
+.top-padding{
+    @include  vw-value(padding-top, 90, 13.66);
+}
+
+.link-txt{
+    text-decoration: none;
+    font-weight: bold;
+}

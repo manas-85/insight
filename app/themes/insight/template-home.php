@@ -120,7 +120,7 @@
             </div>
         </div>
     </section>
-    <section class="section-space col-two-wrap ocean-blue-bg our-work-section">
+    <section class="section-space col-two-wrap ocean-blue-bg top-padding our-work-section">
         <div class="container">
             <div class="row">
                 <div class="col-sm-13">
@@ -134,6 +134,24 @@
                 <div class="col-sm-10 offset-lg-1">
                     <div class="img-wrap">
                         <img src="<?php echo esc_url(get_template_directory_uri() . '/assets/images/our-work-section-img.png'); ?>" alt="" class="logo">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="section-space col-two-wrap top-padding best-practices-sec">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-14 p-0">
+                    <div class="txt-wrap">
+                        <h5>Best Practices</h5>
+                        <h2>Contact us today to experience the next level of sliding gate motor excellence</h2>
+                        <a href="#" class="ocean-blue-txt link-txt"> Contact us <i class="fa-regular fa-arrow-right ms-2"></i></a>
+                    </div>
+                </div>
+                <div class="col-sm-10 p-0">
+                    <div class="img-wrap">
+                        <img src="<?php echo esc_url(get_template_directory_uri() . '/assets/images/best-practices-section-img.png'); ?>" alt="" class="logo">
                     </div>
                 </div>
             </div>
