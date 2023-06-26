@@ -105,3 +105,33 @@
         }
     }
 }
+
+.contact-info-wrap{
+    .form-wrap{
+        input{
+            border-radius: 8px;
+            @include  vw-value(font-size, 14, 13.66);
+        }
+        textarea{
+            @include  vw-value(height, 115, 13.66);
+            @include  vw-value(font-size, 14, 13.66);
+        }
+    }
+    .txt-wrap{
+        ul{
+            list-style: none;
+            @include  vw-value(padding-left, 0, 13.66);
+            li{
+                display: flex;
+                font-weight: 600;
+                .icon{
+                    @include  vw-value(padding-right, 15, 13.66);
+                }
+                a{
+                    color: $charcoal;
+                    text-decoration: none;
+                }
+            }
+        }
+    }
+}

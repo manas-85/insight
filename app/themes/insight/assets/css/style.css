@@ -13434,4 +13434,94 @@ header .topmenu ul.main-manu li a {
   border-bottom-left-radius: 0;
 }
 
+.contact-info-wrap .form-wrap input {
+  border-radius: 8px;
+}
+@media only screen and (min-width: 1700px) {
+  .contact-info-wrap .form-wrap input {
+    font-size: calc($value/$divion)vw;
+  }
+}
+@media only screen and (max-width: 1680px) {
+  .contact-info-wrap .form-wrap input {
+    font-size: 14px;
+  }
+}
+@media only screen and (max-width: 1024px) {
+  .contact-info-wrap .form-wrap input {
+    font-size: 10.5px;
+  }
+}
+@media only screen and (min-width: 1700px) {
+  .contact-info-wrap .form-wrap textarea {
+    height: calc($value/$divion)vw;
+  }
+}
+@media only screen and (max-width: 1680px) {
+  .contact-info-wrap .form-wrap textarea {
+    height: 115px;
+  }
+}
+@media only screen and (max-width: 1024px) {
+  .contact-info-wrap .form-wrap textarea {
+    height: 86.25px;
+  }
+}
+@media only screen and (min-width: 1700px) {
+  .contact-info-wrap .form-wrap textarea {
+    font-size: calc($value/$divion)vw;
+  }
+}
+@media only screen and (max-width: 1680px) {
+  .contact-info-wrap .form-wrap textarea {
+    font-size: 14px;
+  }
+}
+@media only screen and (max-width: 1024px) {
+  .contact-info-wrap .form-wrap textarea {
+    font-size: 10.5px;
+  }
+}
+.contact-info-wrap .txt-wrap ul {
+  list-style: none;
+}
+@media only screen and (min-width: 1700px) {
+  .contact-info-wrap .txt-wrap ul {
+    padding-left: calc($value/$divion)vw;
+  }
+}
+@media only screen and (max-width: 1680px) {
+  .contact-info-wrap .txt-wrap ul {
+    padding-left: 0px;
+  }
+}
+@media only screen and (max-width: 1024px) {
+  .contact-info-wrap .txt-wrap ul {
+    padding-left: 0px;
+  }
+}
+.contact-info-wrap .txt-wrap ul li {
+  display: flex;
+  font-weight: 600;
+}
+@media only screen and (min-width: 1700px) {
+  .contact-info-wrap .txt-wrap ul li .icon {
+    padding-right: calc($value/$divion)vw;
+  }
+}
+@media only screen and (max-width: 1680px) {
+  .contact-info-wrap .txt-wrap ul li .icon {
+    padding-right: 15px;
+  }
+}
+@media only screen and (max-width: 1024px) {
+  .contact-info-wrap .txt-wrap ul li .icon {
+    padding-right: 11.25px;
+  }
+}
+.contact-info-wrap .txt-wrap ul li a {
+  color: #333333;
+  text-decoration: none;
+}
+
 /*# sourceMappingURL=style.css.map */
