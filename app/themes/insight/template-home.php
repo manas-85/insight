@@ -53,7 +53,7 @@
                 </div>
             </div>
             <div class="row mt-4">
-                <div class="col-xl-6 col-lg-8 col-sm-12 px-2 my-2">
+                <div class="col-lg-6 col-sm-12 px-2 my-2">
                     <div class="card">
                         <div class="img-wrap">
                             <img src="<?php echo esc_url(get_template_directory_uri() . '/assets/images/product-1.png'); ?>" class="card-img-top" alt="...">
@@ -69,7 +69,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-xl-6 col-lg-8 col-sm-12 px-2 my-2">
+                <div class="col-lg-6 col-sm-12 px-2 my-2">
                     <div class="card">
                         <div class="img-wrap">
                             <img src="<?php echo esc_url(get_template_directory_uri() . '/assets/images/product-2.png'); ?>" class="card-img-top" alt="...">
@@ -85,7 +85,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-xl-6 col-lg-8 col-sm-12 px-2 my-2">
+                <div class="col-lg-6 col-sm-12 px-2 my-2">
                     <div class="card">
                         <div class="img-wrap">
                             <img src="<?php echo esc_url(get_template_directory_uri() . '/assets/images/product-3.png'); ?>" class="card-img-top" alt="...">
@@ -101,7 +101,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-xl-6 col-lg-8 col-sm-12 px-2 my-2">
+                <div class="col-lg-6 col-sm-12 px-2 my-2">
                     <div class="card">
                         <div class="img-wrap">
                             <img src="<?php echo esc_url(get_template_directory_uri() . '/assets/images/product-4.png'); ?>" class="card-img-top" alt="...">
