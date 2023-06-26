@@ -1,0 +1,40 @@
+footer{
+   background-color: rgba($ocean_blue, 6%);
+   @include  vw-value(padding-bottom, 50, 13.66);
+   .logo-wrap{
+    p{
+        @include  vw-value(margin-top, 16, 13.66);
+    }
+   }
+   h5{
+    @include  vw-value(font-size, 24, 13.66);
+   }
+    ul{
+        @include  vw-value(margin-top, 38, 13.66);
+        list-style: none;
+        padding: 0;
+        &.footer-manu{
+            li{
+                font-weight: 600;
+                a{
+                    display: block;
+                    color: $charcoal;
+                    @include  vw-value(padding-bottom, 10, 13.66);
+                    text-decoration: none;
+                }
+            }
+        }
+    }
+    .footer-contact-info{
+        ul{
+            li{
+                @include  vw-value(margin-bottom, 10, 13.66);
+                font-weight: 600;
+                a{
+                    color: $charcoal;
+                    text-decoration: none;
+                }
+            }
+        }
+    }
+}

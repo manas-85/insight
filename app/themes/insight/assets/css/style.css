@@ -12999,6 +12999,119 @@ header .topmenu ul.main-manu li a {
   }
 }
 
+footer {
+  background-color: rgba(0, 124, 195, 0.06);
+}
+@media only screen and (min-width: 1700px) {
+  footer {
+    padding-bottom: calc($value/$divion)vw;
+  }
+}
+@media only screen and (max-width: 1680px) {
+  footer {
+    padding-bottom: 50px;
+  }
+}
+@media only screen and (max-width: 1024px) {
+  footer {
+    padding-bottom: 37.5px;
+  }
+}
+@media only screen and (min-width: 1700px) {
+  footer .logo-wrap p {
+    margin-top: calc($value/$divion)vw;
+  }
+}
+@media only screen and (max-width: 1680px) {
+  footer .logo-wrap p {
+    margin-top: 16px;
+  }
+}
+@media only screen and (max-width: 1024px) {
+  footer .logo-wrap p {
+    margin-top: 12px;
+  }
+}
+@media only screen and (min-width: 1700px) {
+  footer h5, footer .h5 {
+    font-size: calc($value/$divion)vw;
+  }
+}
+@media only screen and (max-width: 1680px) {
+  footer h5, footer .h5 {
+    font-size: 24px;
+  }
+}
+@media only screen and (max-width: 1024px) {
+  footer h5, footer .h5 {
+    font-size: 18px;
+  }
+}
+footer ul {
+  list-style: none;
+  padding: 0;
+}
+@media only screen and (min-width: 1700px) {
+  footer ul {
+    margin-top: calc($value/$divion)vw;
+  }
+}
+@media only screen and (max-width: 1680px) {
+  footer ul {
+    margin-top: 38px;
+  }
+}
+@media only screen and (max-width: 1024px) {
+  footer ul {
+    margin-top: 28.5px;
+  }
+}
+footer ul.footer-manu li {
+  font-weight: 600;
+}
+footer ul.footer-manu li a {
+  display: block;
+  color: #333333;
+  text-decoration: none;
+}
+@media only screen and (min-width: 1700px) {
+  footer ul.footer-manu li a {
+    padding-bottom: calc($value/$divion)vw;
+  }
+}
+@media only screen and (max-width: 1680px) {
+  footer ul.footer-manu li a {
+    padding-bottom: 10px;
+  }
+}
+@media only screen and (max-width: 1024px) {
+  footer ul.footer-manu li a {
+    padding-bottom: 7.5px;
+  }
+}
+footer .footer-contact-info ul li {
+  font-weight: 600;
+}
+@media only screen and (min-width: 1700px) {
+  footer .footer-contact-info ul li {
+    margin-bottom: calc($value/$divion)vw;
+  }
+}
+@media only screen and (max-width: 1680px) {
+  footer .footer-contact-info ul li {
+    margin-bottom: 10px;
+  }
+}
+@media only screen and (max-width: 1024px) {
+  footer .footer-contact-info ul li {
+    margin-bottom: 7.5px;
+  }
+}
+footer .footer-contact-info ul li a {
+  color: #333333;
+  text-decoration: none;
+}
+
 .btn {
   background: #007CC3;
   color: #FFFFFF;
