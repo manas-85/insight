@@ -27,33 +27,33 @@
 
 h1 {
     @extend %font-bold;
-    @include vw-value(font-size, 56, 19.1);
+    @include vw-value(font-size, 56, 19.2);
 }
 
 h2 {
     @extend %font-bold;
-    @include vw-value(font-size, 40, 19.1);
-    @include vw-value(line-height, 41, 19.1);
+    @include vw-value(font-size, 40, 19.2);
+    @include vw-value(line-height, 41, 19.2);
 }
 
 h3 {
     @extend %font-bold;
-    @include vw-value(font-size, 32, 19.1);
-    @include vw-value(line-height, 41, 19.1);
+    @include vw-value(font-size, 32, 19.2);
+    @include vw-value(line-height, 41, 19.2);
 }
 
 h4 {
     @extend %font-bold;
-    @include vw-value(font-size, 28, 19.1);
+    @include vw-value(font-size, 28, 19.2);
 }
 
 h5 {
     @extend %font-bold;
-    @include vw-value(font-size, 20, 19.1);
+    @include vw-value(font-size, 20, 19.2);
 }
 
 p {
     @extend %font-bold;
-    @include vw-value(font-size, 16, 19.1);
-    @include vw-value(line-height, 28, 19.1);
+    @include vw-value(font-size, 16, 19.2);
+    @include vw-value(line-height, 28, 19.2);
 }

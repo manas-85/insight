@@ -4,12 +4,12 @@
     border-radius: 6px;
     text-decoration: none;
     border: 1px solid $ocean_blue;
-    @include  vw-value(font-size, 16, 13.66);
+    @include  vw-value(font-size, 16, 19.2);
     &.btn-md{
-        @include  vw-value(padding-top, 8, 13.66);
-        @include  vw-value(padding-right, 18, 13.66);
-        @include  vw-value(padding-bottom, 8, 13.66);
-        @include  vw-value(padding-left, 18, 13.66);
+        @include  vw-value(padding-top, 8, 19.2);
+        @include  vw-value(padding-right, 18, 19.2);
+        @include  vw-value(padding-bottom, 8, 19.2);
+        @include  vw-value(padding-left, 18, 19.2);
     }
     &:hover{
         color: $ocean_blue;

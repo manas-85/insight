@@ -40,37 +40,39 @@
             </div>
         </div>
     </div>
-    <header>
+    
         <div class="container">
-            <div class="row">
-                <div class="col-sm-6">
-                    <div class="logo-wrap">
-                        <a class="" href="<?php echo esc_url(home_url('/')); ?>" rel="home">
-                            <img src="<?php echo esc_url(get_template_directory_uri() . '/assets/images/logo.svg'); ?>" alt="" class="logo">
-                        </a>
-                    </div>
-                </div>
-                <div class="col-sm-18">
-                    <nav class="topmenu">
-                        <?php
-                            wp_nav_menu(
-                                array(
-                                    'menu' => 'Main Manu',
-                                    'container' => false,
-                                    'menu_class' => 'main-manu',
-                                )
-                            );
-                        ?>
-                        <div class="search-fliter-wrap">
-                            <span class="icon"><i class="fa-light fa-magnifying-glass"></i></sapn>
-                        </div>
-                        <div class="button-wrap">
-                            <a href="#" class="btn btn-md">
-                                Inquire Now
+            <header>
+                <div class="row d-flex align-items-center">
+                    <div class="col-sm-6">
+                        <div class="logo-wrap">
+                            <a class="" href="<?php echo esc_url(home_url('/')); ?>" rel="home">
+                                <img src="<?php echo esc_url(get_template_directory_uri() . '/assets/images/logo.svg'); ?>" alt="" class="logo">
                             </a>
                         </div>
-                    </nav>
+                    </div>
+                    <div class="col-sm-18">
+                        <nav class="topmenu">
+                            <?php
+                                wp_nav_menu(
+                                    array(
+                                        'menu' => 'Main Manu',
+                                        'container' => false,
+                                        'menu_class' => 'main-manu',
+                                    )
+                                );
+                            ?>
+                            <div class="search-fliter-wrap">
+                                <span class="icon"><i class="fa-light fa-magnifying-glass"></i></sapn>
+                            </div>
+                            <div class="button-wrap">
+                                <a href="#" class="btn btn-md">
+                                    Inquire Now
+                                </a>
+                            </div>
+                        </nav>
+                    </div>
                 </div>
-            </div>
+            </header>
         </div>
-    </header>
+    

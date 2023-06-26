@@ -146,7 +146,7 @@
                     <div class="txt-wrap">
                         <h5>Best Practices</h5>
                         <h2>Contact us today to experience the next level of sliding gate motor excellence</h2>
-                        <a href="#" class="ocean-blue-txt link-txt"> Contact us <i class="fa-regular fa-arrow-right ms-2"></i></a>
+                        <a href="#" class="ocean-blue-txt link-txt"> Contact us <i class="fa-regular fa-arrow-right ms-2 icon-right"></i></a>
                     </div>
                 </div>
                 <div class="col-sm-10 p-0">

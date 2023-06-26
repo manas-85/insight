@@ -1,15 +1,15 @@
 .top-head{
-    @include  vw-value(padding, 10, 13.66);
+    @include  vw-value(padding, 10, 19.2);
     .contact-side{
         display: flex;
         align-items: center;
         
         a{
-            @include  vw-value(margin-top, 0, 13.66);
-            @include  vw-value(margin-right, 10, 13.66);
-            @include  vw-value(margin-bottom, 0, 13.66);
-            @include  vw-value(margin-left, 10, 13.66);
-            @include  vw-value(font-size, 14, 13.66);
+            @include  vw-value(margin-top, 0, 19.2);
+            @include  vw-value(margin-right, 10, 19.2);
+            @include  vw-value(margin-bottom, 0, 19.2);
+            @include  vw-value(margin-left, 10, 19.2);
+            @include  vw-value(font-size, 14, 19.2);
             text-decoration: none;
         }
         
@@ -21,10 +21,10 @@
         justify-content: flex-end;
         .icon{
             i{
-                @include  vw-value(margin-top, 0, 13.66);
-                @include  vw-value(margin-right, 10, 13.66);
-                @include  vw-value(margin-bottom, 0, 13.66);
-                @include  vw-value(margin-left, 10, 13.66);
+                @include  vw-value(margin-top, 0, 19.2);
+                @include  vw-value(margin-right, 10, 19.2);
+                @include  vw-value(margin-bottom, 0, 19.2);
+                @include  vw-value(margin-left, 10, 19.2);
             }
         }
     }
@@ -33,12 +33,21 @@
     }
     .icon{
         i{
-            @include  vw-value(font-size, 14, 13.66);
+            @include  vw-value(font-size, 14, 19.2);
         }
     }
 }
 header{
-    @include  vw-value(padding, 10, 13.66);
+    @include  vw-value(padding-top, 10, 19.2);
+    @include  vw-value(padding-left, 50, 19.2);
+    @include  vw-value(padding-right, 50, 19.2);
+    .logo-wrap {
+        a {
+            img {
+                @include  vw-value(width, 110, 19.2);
+            }
+        }
+    }
     .topmenu{
         display: flex;
         align-items: center;
@@ -46,14 +55,15 @@ header{
         ul{
             &.main-manu{
                 display: flex;
-                @include  vw-value(margin, 0, 13.66);
+                @include  vw-value(margin, 0, 19.2);
                 li{
                     list-style: none;
+                    @include  vw-value(padding-left, 20, 19.2);
+                    @include  vw-value(padding-right, 20, 19.2);
                     a{
                         text-decoration: none;
                         color: $charcoal;
-                        @include  vw-value(font-size, 16, 13.66);
-                        @include  vw-value(padding, 20, 13.66);
+                        @include  vw-value(font-size, 16, 19.2);                        
                         font-weight: bold;
                         display: block;
                     }
@@ -61,10 +71,10 @@ header{
             }
         }
         .search-fliter-wrap{
-            @include  vw-value(padding, 10, 13.66);
+            @include  vw-value(padding, 10, 19.2);
         }
        .button-wrap{
-            @include  vw-value(margin-left, 40, 13.66);
+            @include  vw-value(margin-left, 40, 19.2);
        }
 
     }

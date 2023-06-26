@@ -41,10 +41,10 @@ body {
 }
 
 .section-space{
-    @include  vw-value(padding-top, 10, 13.66);
-    @include  vw-value(padding-right, 0, 13.66);
-    @include  vw-value(padding-bottom, 90, 13.66);
-    @include  vw-value(padding-left, 0, 13.66);
+    @include  vw-value(padding-top, 10, 19.2);
+    @include  vw-value(padding-right, 0, 19.2);
+    @include  vw-value(padding-bottom, 90, 19.2);
+    @include  vw-value(padding-left, 0, 19.2);
 }
 
 img{
@@ -52,10 +52,24 @@ img{
 }
 
 .top-padding{
-    @include  vw-value(padding-top, 90, 13.66);
+    @include  vw-value(padding-top, 90, 19.2);
 }
 
 .link-txt{
     text-decoration: none;
     font-weight: bold;
+
+    .icon-right {
+        transition: transform 0.3s ease-in-out;
+    }
+
+    &:hover {
+        .icon-right {
+            transform: translateX(6px);
+        }
+    }
 }
+
+.container {
+    max-width: 1280px;
+  }

@@ -2,28 +2,33 @@
 .main-banner{
     background-size: cover;
     background-repeat: no-repeat;
-    @include  vw-value(height, 580, 13.66);
+    @include  vw-value(height, 580, 19.2);
     position: relative;
     border-radius: 60px;
    .banner-txt{
         display: flex;
         flex-direction: column;
         justify-content: center;
-        @include  vw-value(padding-top, 0, 13.66);
-        @include  vw-value(padding-right, 84, 13.66);
-        @include  vw-value(padding-bottom, 0, 13.66);
-        @include  vw-value(padding-left, 84, 13.66);
-        @include  vw-value(max-width, 785, 13.66);
+        @include  vw-value(padding-top, 0, 19.2);
+        @include  vw-value(padding-right, 84, 19.2);
+        @include  vw-value(padding-bottom, 0, 19.2);
+        @include  vw-value(padding-left, 84, 19.2);
+        @include  vw-value(max-width, 785, 19.2);
         height: 100%;
         h1, p{
             color: $color_white;
-            @include  vw-value(margin-bottom, 25, 13.66);
+            @include  vw-value(margin-bottom, 25, 19.2);
         }
         p{
-            @include  vw-value(font-size, 18, 13.66);
+            @include  vw-value(font-size, 18, 19.2);
         }
         .btn{
-            @include  vw-value(width, 150, 13.66);
+            @include  vw-value(width, 150, 19.2);
+
+            &:hover {
+                color: $color_white;
+                border-color: $color_white;
+            }
         }
    }
 }
@@ -63,20 +68,20 @@
         background-color: $light_gray;
         border-radius: 20px;
         border: none;
-        @include  vw-value(padding, 20, 13.66);
+        @include  vw-value(padding, 20, 19.2);
         .img-wrap{
-            @include  vw-value(padding-bottom, 20, 13.66);
+            @include  vw-value(padding-bottom, 20, 19.2);
             img{
                 border-radius: 20px;
             }
         }
         .card-body{
-            @include  vw-value(padding, 0, 13.66);
+            @include  vw-value(padding, 0, 19.2);
             display: flex;
             flex-direction: column;
             h5{
-                @include  vw-value(font-size, 18, 13.66);
-                @include  vw-value(margin-bottom, 16, 13.66);
+                @include  vw-value(font-size, 18, 19.2);
+                @include  vw-value(margin-bottom, 16, 19.2);
             }
             p{
                 color: rgba($charcoal, 60%);
@@ -94,7 +99,7 @@
 .best-practices-sec{
     .txt-wrap{
         background-color: $light_gray;
-        @include  vw-value(padding, 40, 13.66);
+        @include  vw-value(padding, 40, 19.2);
         border-top-left-radius: 20px;
         border-bottom-left-radius: 20px;
     }
@@ -110,22 +115,22 @@
     .form-wrap{
         input{
             border-radius: 8px;
-            @include  vw-value(font-size, 14, 13.66);
+            @include  vw-value(font-size, 14, 19.2);
         }
         textarea{
-            @include  vw-value(height, 115, 13.66);
-            @include  vw-value(font-size, 14, 13.66);
+            @include  vw-value(height, 115, 19.2);
+            @include  vw-value(font-size, 14, 19.2);
         }
     }
     .txt-wrap{
         ul{
             list-style: none;
-            @include  vw-value(padding-left, 0, 13.66);
+            @include  vw-value(padding-left, 0, 19.2);
             li{
                 display: flex;
                 font-weight: 600;
                 .icon{
-                    @include  vw-value(padding-right, 15, 13.66);
+                    @include  vw-value(padding-right, 15, 19.2);
                 }
                 a{
                     color: $charcoal;

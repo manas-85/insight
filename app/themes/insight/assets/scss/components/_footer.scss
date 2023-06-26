@@ -1,16 +1,16 @@
 footer{
    background-color: rgba($ocean_blue, 6%);
-   @include  vw-value(padding-bottom, 50, 13.66);
+   @include  vw-value(padding-bottom, 50, 19.2);
    .logo-wrap{
     p{
-        @include  vw-value(margin-top, 16, 13.66);
+        @include  vw-value(margin-top, 16, 19.2);
     }
    }
    h5{
-    @include  vw-value(font-size, 24, 13.66);
+    @include  vw-value(font-size, 24, 19.2);
    }
     ul{
-        @include  vw-value(margin-top, 38, 13.66);
+        @include  vw-value(margin-top, 38, 19.2);
         list-style: none;
         padding: 0;
         &.footer-manu{
@@ -19,8 +19,13 @@ footer{
                 a{
                     display: block;
                     color: $charcoal;
-                    @include  vw-value(padding-bottom, 10, 13.66);
+                    @include  vw-value(padding-bottom, 10, 19.2);
                     text-decoration: none;
+                    transition: color 0.3s ease-in-out;
+
+                    &:hover {
+                        color: $ocean_blue;
+                    }
                 }
             }
         }
@@ -28,7 +33,7 @@ footer{
     .footer-contact-info{
         ul{
             li{
-                @include  vw-value(margin-bottom, 10, 13.66);
+                @include  vw-value(margin-bottom, 10, 19.2);
                 font-weight: 600;
                 a{
                     color: $charcoal;
