@@ -11,6 +11,10 @@
             @include  vw-value(margin-left, 10, 19.2);
             @include  vw-value(font-size, 14, 19.2);
             text-decoration: none;
+            transition: all 0.3s ease;
+            &:hover{
+                color: $ocean_blue;
+            }
         }
         
     }
@@ -25,6 +29,23 @@
                 @include  vw-value(margin-right, 10, 19.2);
                 @include  vw-value(margin-bottom, 0, 19.2);
                 @include  vw-value(margin-left, 10, 19.2);
+                transition: all 0.3s ease;
+
+                &.fa-facebook-f{
+                    &:hover{
+                        color: #3b5998;
+                    }
+                }
+                &.fa-instagram{
+                    &:hover{
+                        color: #E4405F;
+                    }
+                }
+                &.fa-pinterest-p{
+                    &:hover{
+                        color: #c8232c;
+                    }
+                }
             }
         }
     }
@@ -60,12 +81,19 @@ header{
                     list-style: none;
                     @include  vw-value(padding-left, 20, 19.2);
                     @include  vw-value(padding-right, 20, 19.2);
+                    transition: all 0.3s ease;
                     a{
+                        transition: all 0.3s ease;
                         text-decoration: none;
                         color: $charcoal;
                         @include  vw-value(font-size, 16, 19.2);                        
                         font-weight: bold;
                         display: block;
+                    }
+                    &:hover{
+                        a{
+                            color: $ocean_blue;
+                        }
                     }
                 }
             }
