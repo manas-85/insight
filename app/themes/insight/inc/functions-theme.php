@@ -189,7 +189,7 @@ function InsertDataIntoSpreadSheet($spreadsheetID, $range, $data)
     return (isset($Result->spreadsheetId) && !empty($Result->spreadsheetId)) ?  true :  false;
 }
 
-function create_teachers_post_type() {
+/* function create_teachers_post_type() {
     register_post_type( 'teachers',
       array(
         'labels' => array(
@@ -203,4 +203,4 @@ function create_teachers_post_type() {
       )
     );
   }
-  add_action( 'init', 'create_teachers_post_type' );
+  add_action( 'init', 'create_teachers_post_type' ); */

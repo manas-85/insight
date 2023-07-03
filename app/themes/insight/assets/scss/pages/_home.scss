@@ -31,6 +31,11 @@
             }
         }
    }
+
+   &.inner-pages {
+    @include  vw-value(height, 340, 19.2);
+    border-radius: 40px;
+   }
 }
 
 .col-two-wrap{
@@ -68,11 +73,15 @@
         background-color: $light_gray;
         border-radius: 20px;
         border: none;
+        height: calc(100% - 20px);
         @include  vw-value(padding, 20, 19.2);
         .img-wrap{
             @include  vw-value(padding-bottom, 20, 19.2);
             img{
                 border-radius: 20px;
+                @include  vw-value(max-height, 182, 19.2);
+                object-fit: cover;
+                width: 100%;
             }
         }
         .card-body{
@@ -85,6 +94,14 @@
             }
             p{
                 color: rgba($charcoal, 60%);
+                max-height: calc(100% - 106px);
+                overflow: hidden;
+            }
+
+            .btn-md {
+                position: absolute;
+                width: calc(100% - 40px);
+                @include  vw-value(bottom, 20, 19.2);
             }
         }
     }
