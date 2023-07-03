@@ -94,6 +94,7 @@
             }
             p{
                 color: rgba($charcoal, 60%);
+                //@include  vw-value(max-height, 116, 19.2);
                 max-height: calc(100% - 106px);
                 overflow: hidden;
             }
